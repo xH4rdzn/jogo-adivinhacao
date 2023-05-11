@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --white: #fff;
+  --ff-secondary: 'Montserrat', sans-serif;
+  --ff-primary: 'DM Sans', sans-serif;
+  --title-color: #34355b;
+  --btn-bg: #7879F1;
+  --inp-bg: #DCE2E9;
+}
+
+.hide {
+  display: none;
+}
+
+body {
+  background: linear-gradient(287.56deg, #C2E9FB 0%, #A1C4FD 100%);
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+body, button, input {
+  font-family: var(--ff-primary);
+}
+
+
+main {
+  background: var(--white);
+  box-shadow: 0px .2rem .4rem rgba(0, 0, 0, 0.1);
+  border-radius: .6rem;
+  padding: 4.8rem 6.4rem 6.4rem;
+  gap: 4.8rem;
+  margin-top: -12rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Screen One */
+main h1 {
+  font-family: var(--ff-secondary);
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 2.9rem;
+  color: var(--title-color);
+  text-transform: uppercase;
+}
+
+main p {
+  font-family: var(--ff-primary);
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 150%;
+  color: rgba(52, 53, 91, 0.8);
+  margin-top: -3.2rem;
+}
+
+button {
+  border: none;
+  background-color: var(--btn-bg);
+  padding: 1.6rem;
+  border-radius: 0 .4rem .4rem 0;
+  color: var(--white);
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2.1rem;
+  cursor: pointer;
+}
+
+form input {
+  background-color: var(--inp-bg);
+  border-radius: .4rem 0 0 .4rem;
+  border: none;
+  padding: 1.6rem;
+  width: 5rem;
+  height: 5.3rem;
+}
+
+form {
+  display: flex;
+}
+
+/* END Screen One */
+
+/* Screen Two */
