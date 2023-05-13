@@ -35,7 +35,6 @@ main {
   box-shadow: 0px .2rem .4rem rgba(0, 0, 0, 0.1);
   border-radius: .6rem;
   padding: 4.8rem 6.4rem 6.4rem;
-  gap: 4.8rem;
   margin-top: -12rem;
   display: flex;
   flex-direction: column;
@@ -59,7 +58,7 @@ main p {
   font-size: 1.6rem;
   line-height: 150%;
   color: rgba(52, 53, 91, 0.8);
-  margin-top: -3.2rem;
+  /* margin-top: -3.2rem; */
 }
 
 button {
@@ -79,14 +78,23 @@ form input {
   border-radius: .4rem 0 0 .4rem;
   border: none;
   padding: 1.6rem;
-  width: 5rem;
+  width: 6.5rem;
   height: 5.3rem;
 }
 
 form {
   display: flex;
+  justify-content: center;
+  margin-top: 4.8rem;
 }
 
 /* END Screen One */
 
 /* Screen Two */
+.screen__two h2 {
+  margin-bottom: 3.3rem;
+}
+
+.screen__two button {
+  border-radius: .4rem;
+}
